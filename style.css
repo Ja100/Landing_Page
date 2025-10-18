@@ -1,0 +1,81 @@
+.header{
+    background-color: #1F2937;
+    display: flex;
+    font-style: roboto;
+}
+
+/* Styling header texts*/
+
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+h3, .links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.image1{
+    display: flex;
+}
+.item{
+    width: 100px;
+    height: 100px;
+}
+
+/*Styling header Logo Text*/
+
+.logo{
+    font-size: 24px ;
+    color: #f9faf8;
+}
+
+
+
+.information{
+    display: flex;
+} 
+h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+/* styling the coffee menu images*/
+#menu {
+    border-radius: 14px;
+    width: 100px;
+    height: 100px;
+}
+
+/*Styling Quote Section*/
+
+.quote{
+    background-color: #e5e7eb;
+    height: 170px;
+}
+i{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.box, button{
+    background-color: #3882f6;
+    
+}
+
+
+ .contact {
+    width: auto;
+    height: 200px;
+} 
+
+
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    height: 50px;
+}
