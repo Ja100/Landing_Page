@@ -91,22 +91,41 @@ h2{
 
 /*Styling Quote Section*/
 
-.quote{
+.quote-section{
     background-color: #e5e7eb;
-    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+
 }
 
-i{
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: 900;
+.quote-text{
+    
+    width: 610px;
+    height: auto;
 }
+
+.quote-text span{
+    font-size: 26px;
+    color: #1F2937;
+    font-style: italic;
+}
+.quote-text .author{
+    color:#1F2937;
+    font-size: 21px;
+    margin-left: 420px;
+    font-weight: bold;
+}
+
+
 .box, button{
     background-color: #3882f6;
     
 }
 
-
+/*Styling Contact Section */
  .contact {
     width: auto;
     height: 200px;
