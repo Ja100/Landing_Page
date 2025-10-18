@@ -1,7 +1,11 @@
+body{
+    font-family: 'roboto', sans-serif;
+}
+
 .header{
     background-color: #1F2937;
     display: flex;
-    font-style: roboto;
+    
 }
 
 /* Styling header texts*/
@@ -15,6 +19,7 @@ h1{
 h3, .links{
     font-size: 18px;
     color: #e5e7eb;
+    
 }
 .image1{
     display: flex;
@@ -29,6 +34,7 @@ h3, .links{
 .logo{
     font-size: 24px ;
     color: #f9faf8;
+    
 }
 
 
@@ -120,21 +126,56 @@ h2{
 }
 
 
-.box, button{
-    background-color: #3882f6;
-    
-}
-
 /*Styling Contact Section */
  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
-    height: 200px;
+    height: 260px;
 } 
+.box{
+    display: flex;
+    background-color: #3882f6;  
+    border-radius: 10px; 
+    width: 900px; 
+    height: 86px;
+    padding-top: 45px;
+    padding-left: 50px;
+}
+.box .text1{
+    font-size: 25px;
+    
+    color: #f9faf8;
+    font-weight: 600;
+}
+.box .text2{
+    font-size: 15px;
+    color: #e5e7eb;
+}
+
+.boxBtn{
+    display: flex;
+    padding-left: 170px;
+}
+
+.boxBtn button{
+    color: #f9faf8;
+    font-weight: 600;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 18px;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+}
+
 
 
 
 .footer{
     background-color: #1f2937;
-    display: flex;
-    height: 50px;
+    height: 60px;
+    
 }
