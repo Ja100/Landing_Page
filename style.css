@@ -34,21 +34,60 @@ h3, .links{
 
 
 .information{
+    flex-direction: column;
     display: flex;
+    align-items: center;
+    width: auto;
+    height: 440px;
 } 
+.menu-title{
+    
+    display: flex;
+}
 h2{
     color: #1f2937;
-    font-size: 36px;
+    padding-top: 5px;
+    font-size: 40px;
     font-weight: 900;
+    align-content: center;
 }
 
 
 /* styling the coffee menu images*/
-#menu {
-    border-radius: 14px;
-    width: 100px;
-    height: 100px;
+.photo-frame {
+    
+    display: flex;
+    gap: 30px;
+    
 }
+.photo-frame img{
+    
+    border-radius: 24px;
+    border: solid cornflowerblue;
+    width: 180px;
+    height: 180px;
+    object-fit: cover; /*to a make picture fits in a frame/container*/
+    
+}
+
+.paragraph {
+    
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    
+    
+}
+.paragraph p{
+    font-size:15px;
+    color: #1f2937;
+    width: 180px;
+    
+}
+
+
+
+
 
 /*Styling Quote Section*/
 
@@ -56,6 +95,7 @@ h2{
     background-color: #e5e7eb;
     height: 170px;
 }
+
 i{
     color: #1f2937;
     font-size: 36px;
