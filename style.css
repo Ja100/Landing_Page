@@ -1,5 +1,7 @@
 body{
     font-family: 'roboto', sans-serif;
+    height: 100%;
+    margin: 0;
 }
 
 .header{
@@ -132,7 +134,7 @@ h2{
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 260px;
+    height: 300px;
 } 
 .box{
     display: flex;
@@ -171,11 +173,19 @@ h2{
     width: 130px;
 }
 
-
-
+/*Styling the Footer */
 
 .footer{
-    background-color: #1f2937;
-    height: 60px;
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    height: 80px;
+}
+.footer span{
+    font-size: 20px;
+    font-weight:300;
+    font-style: normal;
 }
