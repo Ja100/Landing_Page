@@ -1,45 +1,84 @@
+/*Styling Body common properties*/
+
 body{
     font-family: 'roboto', sans-serif;
     height: 100%;
     margin: 0;
 }
 
-.header{
+/*Styling Heeader Section*/
+
+.headerSection{
     background-color: #1F2937;
     display: flex;
-    
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 450px;
 }
 
-/* Styling header texts*/
 
-h1{
+.headerLogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.headerTexts{
+    
+    width: 550px;
+    margin-top: 100px;
+}
+.headerTexts .mainText{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
-
-h3, .links{
+.headerTexts .secondaryText{
     font-size: 18px;
-    color: #e5e7eb;
-    
+    color: #E5E7EB;
 }
-.image1{
+
+.headerTexts button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 18px;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+}
+
+
+
+
+.headerLinks {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 270px;
+}
+
+.headerLinks a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.headerImage{
     display: flex;
 }
-.item{
-    width: 100px;
-    height: 100px;
-}
-
-/*Styling header Logo Text*/
-
-.logo{
-    font-size: 24px ;
-    color: #f9faf8;
-    
+.headerImage img{
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 570px;
+    height: 240px;
+    object-fit: cover;
 }
 
 
+/*Styling Information Section*/
 
 .information{
     flex-direction: column;
@@ -61,7 +100,6 @@ h2{
 }
 
 
-/* styling the coffee menu images*/
 .photo-frame {
     
     display: flex;
@@ -128,7 +166,9 @@ h2{
 }
 
 
+
 /*Styling Contact Section */
+
  .contact {
     display: flex;
     justify-content: center;
@@ -172,6 +212,8 @@ h2{
     text-align: center;
     width: 130px;
 }
+
+
 
 /*Styling the Footer */
 
